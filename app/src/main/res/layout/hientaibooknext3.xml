@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="\n\ncó định dạng  .epub,  .oeb,  .fb2 or  .fb2.zip) Trong trình duyệt mặc định của Android.  Sách sẽ được tải vè máy và mở trong FBReaderJ. Nếu bạn lại nhấp vào liên kết cũ, nhưng bản trong máy sẽ được dùng để đọc.\n\n\n   Các trang liên quan\n   Thêm thông tin về FBReaderJ và FBReader có thể tìm thấy ở FBREader site.\n   Nếu bạn muốn được thông báo về các bản phát hành mới, vui lòng đăng ký tại Dự án FBReaderJ tại freshmeat"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hungn.fbr">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main_tv"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_mtv"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_htb"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_gdn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_ttgn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_cttn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_mtv_fbn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_mtv_mnbn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_mtv_fbn_pdbn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_mtv_fbn_fsp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_mtv_mnbn_au"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_ttkn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".test.MainData"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".test.Mainxemsach"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".test.Mainthemsach"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".download.Maindownload"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".service.Mainservice"
+            android:parentActivityName=".MainActivity" />
+        />
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

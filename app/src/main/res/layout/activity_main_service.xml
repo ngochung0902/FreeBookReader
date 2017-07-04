@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.hungn.fbr.service.Mainservice">
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:onClick="playSong"
+        android:drawableBottom="@drawable/play"
+        android:layout_alignBaseline="@+id/button_stop"
+        android:layout_alignBottom="@+id/button_stop"
+        android:layout_toStartOf="@+id/button_stop"
+        android:layout_marginEnd="34dp"/>
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:onClick="stopSong"
+        android:drawableBottom="@drawable/stop"
+        android:layout_marginEnd="72dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

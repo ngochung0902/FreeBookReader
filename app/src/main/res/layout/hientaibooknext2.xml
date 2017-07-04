@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:text="\ngzip cũng được hỗ trợ.\n   Bạn có thể tủy chỉnh FBReader để đọc sách theo ý thích. Màu sắc, phông chữ, các phím kết hợp và nhiều lựa chọn khác có thể thay đổi tại bản tùy chỉnh.\n   FBReaderJ được phân phối dưới khoảng của GNU GPL.\n\n\n   Bắt đầu như thế nào\n   Có 2 cách để thêm sách vào thư viện FBReaderJ.\n   Các thứ nhất là chếp sách vào thiết bị của bạn ở thư mục /sdcard/Books (hoặc bất kỳ thư mục con của nó). FBReader sẽ tự động thêm cuốn sách đó.\n   Cách thứ hai là nhấp vào 1 đường dẫn sách (vd 1được dẫn tới tập tin)"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
